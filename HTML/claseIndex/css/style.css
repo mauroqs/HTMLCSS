@@ -10,6 +10,11 @@ header, footer {
     text-align: center;
 }
 
+h1 {
+    
+    background-image: url("./imagenes/super.jpg");
+}
+
 ul {
     padding: 25px;
 }
