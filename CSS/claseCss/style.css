@@ -1,15 +1,15 @@
 p {
-  color: blue;
+  color: rgb(255, 94, 0);
   font-size: 40px;
 }
 
 /* class */
 .parrafo {
-  color: red;
+  color: rgb(0, 255, 76);
 }
 
 /* ID */
 #texto {
-  color: yellow;
+  color: rgb(38, 0, 255);
   font-size: 24px;
 }

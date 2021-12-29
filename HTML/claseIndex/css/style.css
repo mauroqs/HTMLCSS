@@ -4,16 +4,18 @@
 
 header, footer {
     margin: 0;
-    padding: 25px;
-    background-color: rgb(211, 39, 16);
-    color: white;
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-align: center;
-}
-
-h1 {
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    background-image: url("../imagenes/super.jpg");
     
-    background-image: url("./imagenes/super.jpg");
+    
 }
+  
 
 ul {
     padding: 25px;
@@ -22,7 +24,7 @@ ul {
 .food_group {
     text-transform: uppercase;
     padding: 10px 0;
-    color: rgb(14, 14, 15);
+    color: rgb(244, 244, 250);
     font-weight: bold;
     font-size: 24px;
 }
@@ -39,11 +41,13 @@ figure {
 
 .aliment_container img{
     width: 50%;
+   
 }
 
 .aliment {
     text-align: center;
     list-style-position: inside;
+    color: rgb(59, 7, 42);
 }
 
 a {
