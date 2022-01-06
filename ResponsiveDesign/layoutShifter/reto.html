@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GadgetShop.ec</title>
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./styless.css" />
   </head>
-  <body class="general">
+  <body>
     <header>
       <div class="ancho">
         <div class="logo">
@@ -27,32 +27,34 @@
     <main class="main">
       <aside class="aside">
         <div>
-          <iframe width="300" height="150" src="https://www.youtube.com/embed/AM33KtVKqf4" 
+          <iframe width="200" height="100" src="https://www.youtube.com/embed/AM33KtVKqf4" 
           title="YouTube video player" frameborder="0" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div>
-          <iframe width="300" height="150" src="https://www.youtube.com/embed/qVG6L1-VA54" 
+          <iframe width="200" height="100" src="https://www.youtube.com/embed/qVG6L1-VA54" 
           title="YouTube video player" frameborder="0" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div>
-          <iframe width="300" height="150" src="https://www.youtube.com/embed/N61ic_G7MWU" 
+          <iframe width="200" height="100" src="https://www.youtube.com/embed/N61ic_G7MWU" 
           title="YouTube video player" frameborder="0" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div>
-          <iframe width="300" height="150" src="https://www.youtube.com/embed/FqfEnxsLgos" 
+          <iframe width="200" height="100" src="https://www.youtube.com/embed/FqfEnxsLgos" 
           title="YouTube video player" frameborder="0" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </aside>
-      <div>
-        <section class="section">
-        <figure>
-          <img src="./img/fondo.png" alt="Imagen de logo">
-      </figure>
-      </section>
+      <div class="section">
+       
+        <picture>
+          <source media="(min-width=600px)" srcset="./img/fondo_p.png"/>
+          <source media="(min-width=800px)" srcset="./img/fondo_m.png"/>
+          <img src="./img/fondo_g.png" alt="Imagen de logo">
+      </picture>
+     
     </div>  
     </main>
 <footer class="footer">
