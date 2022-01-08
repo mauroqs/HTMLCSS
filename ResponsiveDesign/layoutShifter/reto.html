@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GadgetShop.ec</title>
     <link rel="stylesheet" href="./styless.css" />
+    <link rel="stylesheet" href="./responsive.css" />
   </head>
   <body>
     <header>
       <div class="ancho">
         <div class="logo">
-          <figure>
+        <figure>
             <img src="./img/gadget.png" alt="Imagen de logo">
         </figure>
         </div>
@@ -48,13 +49,11 @@
         </div>
       </aside>
       <div class="section">
-       
         <picture>
-          <source media="(min-width=600px)" srcset="./img/fondo_p.png"/>
-          <source media="(min-width=800px)" srcset="./img/fondo_m.png"/>
-          <img src="./img/fondo_g.png" alt="Imagen de logo">
+          <source media="(min-width:1300px)" srcset="./img/fondo_g.png"/>
+          <source media="(min-width:800px)" srcset="./img/fondo_m.png"/> 
+          <img src="./img/fondo_p.png" alt="Imagen de logo">        
       </picture>
-     
     </div>  
     </main>
 <footer class="footer">
